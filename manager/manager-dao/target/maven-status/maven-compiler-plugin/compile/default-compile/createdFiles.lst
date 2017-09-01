@@ -1,0 +1,11 @@
+com/zerods/mall/mapper/TbItemCatMapper.class
+com/zerods/mall/mapper/TbOrderItemMapper.class
+com/zerods/mall/mapper/TbContentMapper.class
+com/zerods/mall/mapper/TbItemDescMapper.class
+com/zerods/mall/mapper/TbOrderMapper.class
+com/zerods/mall/mapper/TbUserMapper.class
+com/zerods/mall/mapper/TbContentCategoryMapper.class
+com/zerods/mall/mapper/TbItemParamItemMapper.class
+com/zerods/mall/mapper/TbItemParamMapper.class
+com/zerods/mall/mapper/TbOrderShippingMapper.class
+com/zerods/mall/mapper/TbItemMapper.class
