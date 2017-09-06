@@ -6,7 +6,6 @@
       <module fileurl="file://$PROJECT_DIR$/manager-dao/manager-dao.iml" filepath="$PROJECT_DIR$/manager-dao/manager-dao.iml" />
       <module fileurl="file://$PROJECT_DIR$/manager-pojo/manager-pojo.iml" filepath="$PROJECT_DIR$/manager-pojo/manager-pojo.iml" />
       <module fileurl="file://$PROJECT_DIR$/manager-service/manager-service.iml" filepath="$PROJECT_DIR$/manager-service/manager-service.iml" />
-      <module fileurl="file://$PROJECT_DIR$/manager-web/manager-web.iml" filepath="$PROJECT_DIR$/manager-web/manager-web.iml" />
     </modules>
   </component>
 </project>
