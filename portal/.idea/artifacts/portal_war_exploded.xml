@@ -7,7 +7,7 @@
           <element id="module-output" name="portal" />
         </element>
         <element id="directory" name="lib">
-          <element id="library" level="project" name="Maven: com.zerods.mall:manager-interface:1.0-SNAPSHOT" />
+          <element id="library" level="project" name="Maven: com.zerods.mall:content-interface:1.0-SNAPSHOT" />
           <element id="library" level="project" name="Maven: com.zerods.mall:manager-pojo:1.0-SNAPSHOT" />
           <element id="library" level="project" name="Maven: com.zerods.mall:common:1.0-SNAPSHOT" />
           <element id="library" level="project" name="Maven: joda-time:joda-time:2.5" />

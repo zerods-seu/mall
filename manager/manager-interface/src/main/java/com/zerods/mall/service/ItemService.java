@@ -1,6 +1,6 @@
 package com.zerods.mall.service;
 
-import com.zerods.mall.common.pojo.AjaxResult;
+import com.Response.result.ResponseResult;
 import com.zerods.mall.common.pojo.EasyUIDataGridResult;
 import com.zerods.mall.pojo.TbItem;
 
@@ -13,5 +13,5 @@ public interface ItemService {
 
     EasyUIDataGridResult<TbItem> getItemList(int page, int rows);
 
-    AjaxResult addItem(TbItem item, String desc);
+    ResponseResult addItem(TbItem item, String desc);
 }

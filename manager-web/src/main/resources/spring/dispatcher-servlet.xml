@@ -15,7 +15,7 @@
     <context:property-placeholder location="classpath:config/resource.properties" />
 
     <!--使用spring组件扫描一次性配置此包下所有的controller-->
-    <context:component-scan base-package="com.zerods.mall.controller"/>
+    <context:component-scan base-package="com.zerods.mall.manager.controller"/>
 
     <!--<mvc:resources location="/js/" mapping="/js/**"/>-->
 
@@ -45,4 +45,7 @@
     <dubbo:reference interface="com.zerods.mall.service.ItemService" id="itemService" />
     <dubbo:reference interface="com.zerods.mall.service.ItemCatService" id="itemCatService" />
     <dubbo:reference interface="com.zerods.mall.service.ItemDescService" id="itemDescService" />
+
+    <dubbo:reference interface="com.zerods.mall.content.service.ContentCategoryService" id="contentCategoryService" />
+    <dubbo:reference interface="com.zerods.mall.content.service.ContentService" id="contentService" />
 </beans>

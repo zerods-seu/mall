@@ -1,8 +1,8 @@
 package com.zerods.mall.service.impl;
 
+import com.Response.result.ResponseResult;
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
-import com.zerods.mall.common.pojo.AjaxResult;
 import com.zerods.mall.common.pojo.EasyUIDataGridResult;
 import com.zerods.mall.common.utils.IDUtils;
 import com.zerods.mall.mapper.TbItemDescMapper;
@@ -62,7 +62,7 @@ public class ItemServiceImpl implements ItemService {
     }
 
     @Override
-    public AjaxResult addItem(TbItem item, String description) {
+    public ResponseResult addItem(TbItem item, String description) {
         // 补全商品pojo数据，插入
         long id = IDUtils.getItemId();
         item.setId(id);
@@ -81,6 +81,6 @@ public class ItemServiceImpl implements ItemService {
         item.setUpdated(date);
         itemDescMapper.insert(itemDesc);
 
-        return AjaxResult.ok();
+        return ResponseResult.ok();
     }
 }

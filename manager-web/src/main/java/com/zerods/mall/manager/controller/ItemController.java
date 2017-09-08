@@ -1,6 +1,6 @@
 package com.zerods.mall.manager.controller;
 
-import com.zerods.mall.common.pojo.AjaxResult;
+import com.Response.result.ResponseResult;
 import com.zerods.mall.common.pojo.EasyUIDataGridResult;
 import com.zerods.mall.pojo.TbItem;
 import com.zerods.mall.service.ItemService;
@@ -36,7 +36,7 @@ public class ItemController {
 
     @RequestMapping(value = "/item/save", method = RequestMethod.POST)
     @ResponseBody
-    public AjaxResult addItem(TbItem item, String desc) {
+    public ResponseResult addItem(TbItem item, String desc) {
         return itemService.addItem(item, desc);
     }
 }

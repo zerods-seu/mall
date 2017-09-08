@@ -16,10 +16,6 @@
         <webroots>
           <root url="file://$MODULE_DIR$/src/main/webapp" relative="/" />
         </webroots>
-        <sourceRoots>
-          <root url="file://$MODULE_DIR$/src/main/resources" />
-          <root url="file://$MODULE_DIR$/src/main/java" />
-        </sourceRoots>
       </configuration>
     </facet>
   </component>
@@ -34,7 +30,7 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="Maven: com.zerods.mall:manager-interface:1.0-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: com.zerods.mall:content-interface:1.0-SNAPSHOT" level="project" />
     <orderEntry type="library" name="Maven: com.zerods.mall:manager-pojo:1.0-SNAPSHOT" level="project" />
     <orderEntry type="library" name="Maven: com.zerods.mall:common:1.0-SNAPSHOT" level="project" />
     <orderEntry type="library" name="Maven: joda-time:joda-time:2.5" level="project" />
