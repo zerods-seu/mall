@@ -1,7 +1,7 @@
 package com.zerods.mall.content.service.impl;
 
-import com.Response.result.ResponseResult;
 import com.zerods.mall.common.pojo.EasyUITeeNode;
+import com.zerods.mall.common.pojo.ResponseResult;
 import com.zerods.mall.content.service.ContentCategoryService;
 import com.zerods.mall.mapper.TbContentCategoryMapper;
 import com.zerods.mall.pojo.TbContentCategory;
