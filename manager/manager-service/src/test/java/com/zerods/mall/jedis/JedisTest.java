@@ -1,4 +1,4 @@
-package com.zerods.mall.pageHelper;
+package com.zerods.mall.jedis;
 
 import org.junit.Test;
 import redis.clients.jedis.HostAndPort;
@@ -20,7 +20,6 @@ public class JedisTest {
         // 创建一个连接Jedis对象，参数，host， port
          Jedis jedis = new Jedis("192.168.56.109", 6379);
 
-         jedis.auth("123456");
          jedis.set("test123", "my first jedis test");
          String s = jedis.get("test123");
         System.out.println(s);

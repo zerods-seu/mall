@@ -1,9 +1,9 @@
 package com.zerods.mall.service.impl;
 
-import com.Response.result.ResponseResult;
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
 import com.zerods.mall.common.pojo.EasyUIDataGridResult;
+import com.zerods.mall.common.pojo.ResponseResult;
 import com.zerods.mall.common.utils.IDUtils;
 import com.zerods.mall.mapper.TbItemDescMapper;
 import com.zerods.mall.mapper.TbItemMapper;

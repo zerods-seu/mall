@@ -1,7 +1,7 @@
 package com.zerods.mall.service;
 
-import com.Response.result.ResponseResult;
 import com.zerods.mall.common.pojo.EasyUIDataGridResult;
+import com.zerods.mall.common.pojo.ResponseResult;
 import com.zerods.mall.pojo.TbItem;
 
 /**
